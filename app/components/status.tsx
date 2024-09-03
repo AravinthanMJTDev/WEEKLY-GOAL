@@ -70,10 +70,10 @@ const Status: React.FC<StatusProps> = ({ seriesData, colors }) => {
                       width: "120%",
                       justifyContent: "center",
                     }}
-                    className="flex items-center space-x-1"
+                    className="flex items-center"
                   >
-                    <IconComponent />
-                    <span className="font-semibold">{data.status}</span>
+                    <IconComponent className="w-auto h-auto" />
+                    <span className="font-semibold mx-2">{data.status}</span>
                   </div>
                 </div>
               </div>
