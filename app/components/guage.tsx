@@ -149,7 +149,7 @@ const KPI_Gauges: React.FC<KPI_GaugesProps> = ({ seriesData, title }) => {
     <div className="max-w-[800px] h-auto mx-auto flex flex-col justify-around bg-slate-100 rounded-xl p-6 shadow-lg ">
       <div className="w-full flex flex-row justify-between items-center px-5 py-3 bg-slate-200 rounded-t-lg">
         <p className="text-xl font-semibold text-slate-600">{title}</p>
-        <Ellipsis className="text-gray-500" />
+        <Ellipsis className="text-gray-500 cursor-pointer" />
       </div>
       <div className="flex flex-col sm:flex-row p-6 ">
         <Status seriesData={seriesData} colors={trackColors} />
